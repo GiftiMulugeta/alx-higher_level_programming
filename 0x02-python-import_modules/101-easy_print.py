@@ -1,3 +1,2 @@
-import logging
-log = logging.getLogger(__name__)
-log.info('#pythonisfun')
+#!/usr/bin/python3
+__import__("os").write(1, "#pythoniscool\n".encode("UTF-8"))
