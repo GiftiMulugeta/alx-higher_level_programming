@@ -1,4 +1,6 @@
 #!/usr/bin/python3
 def best_score(a_dictionary):
-    maxx = max(a_dictionary, key = a_dictionary.get)
-    return maxx
+    if a_dictionary is None:
+        return None
+    keymax = max(zip(a_dictionary.values(), a_dictionary.keys()))[1]
+    return keymax
