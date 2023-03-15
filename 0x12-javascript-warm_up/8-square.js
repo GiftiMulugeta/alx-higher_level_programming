@@ -8,7 +8,7 @@ if (isNaN(args[2])) {
 } else if (args[2] > 0) {
   for (; i < args[2]; i++) {
     for (; j < args[2]; j++) {
-      x += 'x';
+      x += 'X';
     }
     console.log(x);
   }
