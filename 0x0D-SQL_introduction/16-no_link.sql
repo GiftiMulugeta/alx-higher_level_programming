@@ -1,4 +1,4 @@
 -- djfsjkfnsd
 SELECT score,name from second_table
-WHERE name IS NOT NULL
+WHERE name != ""
 ORDER BY score DESC;
